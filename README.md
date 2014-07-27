@@ -12,14 +12,14 @@ The below files were used to generate the dataset.
  - subject_train.txt: subjects who performed the experiments 
 
 The Script works as follow:
-1. Read the 3 Test datasets and store them in separate data frame objects
-2. Include a column with a sequential id that is used to merge the data.
-3. Merge the Test data into a dataset using the sequential ids and include a column with the type of the data ("Test")
-4. Read the 3 Train datasets and store them in separate data frame objects
-5. Include a column with a sequential id that is used to merge the data.
-6. Merge the Test data into a dataset using the sequential ids and include a column with the type of the data ("Train")
-7. Concatenate the Test and Train datasets
-8. Create a new dataset only with mean and standard deviation measurements and the rest of the attributes 
-9. Rename the colums with a descriptive value and remove ID column
-10. Replace activity values with a descriptive value
+1.  Read the 3 Test datasets and store them in separate data frame objects
+2.  Include a column with a sequential id that is used to merge the data.
+3.  Merge the Test data into a dataset using the sequential ids and include a column with the type of the data ("Test")
+4.  Read the 3 Train datasets and store them in separate data frame objects
+5.  Include a column with a sequential id that is used to merge the data.
+6.  Merge the Test data into a dataset using the sequential ids and include a column with the type of the data ("Train")
+7.  Concatenate the Test and Train datasets
+8.  Create a new dataset only with mean and standard deviation measurements and the rest of the attributes 
+9.  Rename the colums with a descriptive value and remove ID column
+10.  Replace activity values with a descriptive value
 
