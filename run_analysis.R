@@ -62,10 +62,13 @@ dataset$Activity[dataset$Activity == 4] <- "SITTING"
 dataset$Activity[dataset$Activity == 5] <- "STANDING"
 dataset$Activity[dataset$Activity == 6] <- "LAYING"
 
+#Return the dataset
 dataset
 
-#write.table(dataset,file="dataset.csv",sep=",",row.names=FALSE)
+#write.table(dataset,file="dataset.txt",sep=",",row.names=FALSE)
 
-#dataset2 <- aggregate(dataset[, 4:89],list(Activity=dataset$Activity,Subject=dataset$Subject), mean ) 
-#write.table(dataset2,file="dataset2.csv",sep=",",row.names=FALSE)
+#Return the second dataset
+dataset2 <- aggregate(dataset[, 4:89],list(Activity=dataset$Activity,Subject=dataset$Subject), mean ) 
+#write.table(dataset2,file="dataset2.txt",sep=",",row.names=FALSE)
 
+dataset2
