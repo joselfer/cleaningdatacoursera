@@ -1,4 +1,5 @@
 ### Getting and Cleaning data course project
+=======
 
 The script uses datasets obtained from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and merge them together to create one data set.
 
